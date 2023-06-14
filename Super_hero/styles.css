@@ -1,0 +1,47 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(145, 235, 205);
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.flexbox{
+    display: flexbox;
+    justify-content: center;
+}
+#searchInput{
+    margin-left: 20%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left:2rem;
+    padding-right:2rem;
+    margin-top: 3%;
+    margin-right: 3%;
+    background-color: rgb(224, 228, 228);
+}
+#searchButton,#newHeroButton{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    margin-left: 3rem ;
+}
+#heroImage{
+    display: inline-block;
+    margin-left: 35%;
+}
+
+
